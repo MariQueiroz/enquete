@@ -1,0 +1,12 @@
+
+report:
+    path:     /report
+    defaults: { _controller: AppBundle:Enquete:report }
+
+new:
+    path:     /new
+    defaults: { _controller: AppBundle:Enquete:new }
+
+save:
+    path:     /save
+    defaults: { _controller: AppBundle:Enquete:save }

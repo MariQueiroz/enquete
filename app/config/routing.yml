@@ -1,0 +1,15 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+enquete_report:
+    path: /report
+    defaults: { _controller: AppBundle:Enquete:report }
+
+enquete_new:
+    path: /new
+    defaults: { _controller: AppBundle:Enquete:new }
+
+enquete_save:
+    path: /save
+    defaults: { _controller: AppBundle:Enquete:save }
